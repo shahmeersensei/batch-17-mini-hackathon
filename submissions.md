@@ -7,7 +7,7 @@
 | 1234     | Ali Khan     | https://ali-khan.netlify.app            | https://github.com/your-org/repo-name/tree/main/students/roll1234-AliKhan | https://linkedin.com/in/alikhan |
 | 5678     | Sara Ahmed   | https://sara-landing.vercel.app         | https://github.com/your-org/repo-name/tree/main/students/roll5678-SaraAhmed | https://linkedin.com/in/saraahmed |
 |          |              |                                         |    
-| WMA-419473     | Sadiq khan   | https://daraz-hackathon-project.vercel.app/        | https://github.com/your-org/repo-name/tree/main/students/roll5678-SaraAhmed | https://linkedin.com/in/saraahmed |                                                                  |                                  |
+| WMA-419473     | Sadiq khan   | https://daraz-hackathon-project.vercel.app/        |https://github.com/SadiqKhan-Dev/batch-17-mini-hackathon/tree/main/students/WMA-419473-Sadiq-Khan | ww.linkedin.com/in/sadiq-rashid-564375158 |                                                                  |                                  |
 
 > ⚠️ Note:
 > - Submit before **12:00 PM sharp**  
