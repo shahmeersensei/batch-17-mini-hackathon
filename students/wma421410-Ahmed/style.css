@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.logo img{ 
+    height: 50px;
+}
+
+.navlinks a {
+   
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navlinks :hover{ background-color: yellow }
+
+
+.login-btn{
+    background-color: purple;
+    color: white;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cards{display: flex;
+ justify-content: space-between; 
+margin: 50px;
+gap: 10p;
+align-items: center;
+ }
+
+.para{
+    display: flex;
+     justify-content: space-between; 
+      text-align: center;
+    gap: 10px    
+}
+
+.hero{ 
+  
+    background-color: purple;
+ 
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+}
+.pngs{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    padding: 50px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+    padding: 10px;
+    
+    
+   text-align: center;
+}
+.all-headings{
+    display: flex;
+    justify-content:center;
+    gap: 105px;
+  
+    color: white;
+    
+ 
+}
