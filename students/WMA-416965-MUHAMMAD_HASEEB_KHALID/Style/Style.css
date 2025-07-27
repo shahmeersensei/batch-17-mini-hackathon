@@ -1,0 +1,78 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --Meezan-Green: #007D43;
+    --Primary-Blue: #007BFF;
+    --Gold-Logo-accent: #E1B837;
+    --Dark-Purple-Logo: #772A77;
+    --Light-Gray-Accent: #F6F7F6;
+    --Footer-Navy-Text: #003B6F;
+    --Background_White: #FFFFFF;
+    --background_Color: #e6e6e6;
+}
+
+.navbarOne{
+    background-color: var(--background_Color);
+    font-size: 11px;
+}
+
+.navbarTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+}
+
+.logo{
+    height: 60px;
+}
+
+li{
+    list-style: none;
+}
+
+.search{
+    width: 140px;
+    height: 32px;
+}
+
+span{
+    color: var(--Gold-Logo-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.right{
+    padding: 0px 20px;
+    background-color: var(--Dark-Purple-Logo);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbarThree{
+    background-color: var(--background_Color);
+}
+
+.Cards{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    gap: 20px;
+}

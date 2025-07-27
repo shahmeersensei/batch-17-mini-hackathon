@@ -1,0 +1,11 @@
+/* This is for laptop screen responsiveness. */
+@media screen and (max-width: 900px) {
+}
+
+/* This is for laptop tablet responsiveness. */
+@media screen and (max-width: 600px) {
+}
+
+/* This is for laptop Mobile responsiveness. */
+@media screen and (min-width: 320px) and (max-width: 420px) {
+}
