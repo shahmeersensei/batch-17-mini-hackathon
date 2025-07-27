@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#5f2585;
+}
+.topbar {
+    background-color: #e3e3e3;
+    padding: 5px 0;
+}
+
+.topbar p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.header .navbar-brand img {
+    height: 60px;
+}
+.header .navbar-brand {
+    margin-right: 70px;
+    padding: 0;
+}
+.header ul .nav-item {
+    border-left: 1px solid #e3e3e3;
+}
+
+.header ul .nav-item:last-child {
+border: unset;
+}
+
+.header ul .nav-item:nth-child(4) {
+    border-right: 1px solid #e3e3e3 !important;
+}
+
+.header nav.navbar {
+    padding: 0;
+}
+
+.header ul li form {
+    margin-left: 15px;
+}
+
+.header ul.navbar-nav, .header ul.navbar-nav a {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.header ul.navbar-nav a {
+    color: #000;
+}
+.header ul.navbar-nav li .dropdown-menu li, .header ul.navbar-nav li .dropdown-menu li a {
+    height: auto;
+}
+
+.header ul li:nth-child(5) button {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.header ul li:nth-child(5) button:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+.login a.nav-link {
+    background-color: var(--primary);
+    color: #fff !important;
+    padding: 0 20px !important;
+}
+
+.login a.nav-link span {
+    color: #eefa40;
+    font-weight: 700;
+    margin-right: 5px;
+    line-height: 1;
+}
+.login a.nav-link::after {
+    display: none;
+}
+.header .container-fluid {
+    padding-right: 0;
+}
+.header ul.navbar-nav a:hover {
+    background-color: #eefa40;
+}
+
+.login .nav-link:hover {
+    color: #000 !important;
+}
+
+.login .nav-link:hover span {
+    color: #000;
+}
+
+.marquee {
+    background-color: #ededed;
+    padding:5px;
+}
+
+.marquee marquee {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+}
+
+
+#facility {
+    padding: 100px 0;
+}
+
+#facility .col-md-3 {
+    text-align: center;
+}
+
+#facility .col-md-3 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#facility .col-md-3 h3 {
+    font-size: 22px;
+    color: var(--primary);
+    margin-top: 15px;
+}
+
+
+#ways-to-bank {
+    background-color: var(--primary);
+    padding: 100px 0;
+}
+
+#ways-to-bank h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#ways-to-bank svg path {
+    fill: #fff;
+}
+
+#ways-to-bank svg {
+    font-size: 80px;
+    margin-bottom: 30px;
+    background-color: #ffffff3b;
+    padding: 60px 50px;
+    border-radius: 50%;
+}
+
+#ways-to-bank .col-md-2 {
+    text-align: center;
+}
+
+#ways-to-bank h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#ways-to-bank p {
+    color: #fff;
+    line-height: 1.3;
+}
+
+#ways-to-bank svg {
+    background-color: #ffffff3b;
+    padding: 60px 50px;
+    border-radius: 50%;
+}
+#ways-to-bank svg:hover {background-color: #eefa40b5;}
+
+#ways-to-bank svg:hover path {
+    fill: #000;
+}
+#awards {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ededed;
+}
+
+#awards h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#awards .row {
+    max-width: 50%;
+    margin: auto;
+}
+
+#awards a {
+    color: var(--primary);
+}
+
+.service-desk {
+    padding: 50px 0;
+}
+
+.service-desk h2 {
+    text-align: center;
+}
+
+.service-desk .row {
+    max-width: 60%;
+    margin: auto;
+}
+
+.service-desk img {
+    width: 100%;
+}
+
+.footer-top {
+    background-color: var(--primary);
+}
+
+.footer-top .col-md-3 {
+    border-right: 1px solid #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-top .col-md-3:last-child {
+    border: unset;
+}
+
+.footer-top .col-md-3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-top .col-md-3 .icon-wt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top .col-md-3 .icon-wt svg {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.footer-top .col-md-3 .icon-wt h3 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.footer-bottom {
+    background-color: #ededed;
+    padding: 40px 0;
+}
+
+.footer-bottom .row {
+    max-width: 95%;
+    margin: auto;
+}
+
+.footer-bottom h4 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+#connect {
+    display: flex;
+}
+
+#connect svg {
+    font-size: 30px;
+}
+
+#connect svg path {
+    fill: var(--primary);
+}
+
+#connect a:hover svg path {
+    fill: #000;
+}
+.copyright {
+    background-color: #e3e3e3;
+    padding: 5px 0;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.copyright p a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.copyright .col-md-6:last-child p {
+    text-align: right;
+}

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daraz - Hackathon Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav>
+        <div class="navlinks">
+          <ul>
+            <li><a href="">SAVE MORE ON APP</a></li>
+            <li><a href="">SELL ON DARAZ</a></li>
+            <li><a href="">HELP & SUPPORT</a></li>
+            <li><a href="">LOGIN</a></li>
+            <li><a href="">SIGN UP</a></li>
+            <li><a href=""> زبان تبدیل کریں</a></li>
+          </ul>
+        </div>
+        <!--  logo & search bar-->
+        <div class="main-nav">
+          <!-- logo -->
+          <img src="./images/daraz-logo.png" alt="daraz-logo" />
+          <!-- search bar -->
+          <div class="search-bar">
+            <input type="search" placeholder="Search in Daraz" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+        </div>
+      </nav>
+    </header>
+    <!--  main section-->
+    <main>
+      <!-- hero section  -->
+      <section class="hero-sec">
+        <div class="hero-main-banner">
+          <div class="hero-img1"></div>
+          <div class="hero-img2"></div>
+        </div>
+      </section>
+
+      <!-- card section -->
+      <section>
+        <div class="main-wrapper">
+          <div class="flash-sale-container">
+            <div class="flash-sale-header">
+              <h2>Flash Sale</h2>
+              <a href="#" class="shop-all-products-btn">SHOP ALL PRODUCTS</a>
+            </div>
+
+            <div class="flash-sale-status">
+              <p>On Sale Now</p>
+            </div>
+
+            <div class="product-grid">
+              <!-- Product 1: Airpod Pro -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card1.jpg"
+                  alt="Airpod Pro Air Pro TWS Airpods Wireless Earbuds"
+                />
+                <h3 class="product-name">
+                  Airpod Pro Air Pro TWS Airpods Wireless Earbud...
+                </h3>
+                <p class="current-price">Rs.716</p>
+                <p class="original-price">Rs.1,199</p>
+                <p class="discount">-40%</p>
+              </div>
+
+              <!-- Product 2: Whitening Cream -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/whitnning-cream.webp"
+                  alt="Whitening Cream for Men & Women Skin"
+                />
+                <h3 class="product-name">
+                  Whitening Cream for Men & Women Skin...
+                </h3>
+                <p class="current-price">Rs.245</p>
+                <p class="original-price">Rs.1,200</p>
+                <p class="discount">-80%</p>
+              </div>
+
+              <!-- Product 3: Airpods_Pro Bluetooth -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/earbuds.webp"
+                  alt="Airpods_Pro Wireless Earbuds Bluetooth 5.0"
+                />
+                <h3 class="product-name">
+                  Airpods_Pro Wireless Earbuds Bluetooth 5.0...
+                </h3>
+                <p class="current-price">Rs.763</p>
+                <p class="original-price">Rs.1,120</p>
+                <p class="discount">-32%</p>
+              </div>
+
+              <!-- Product 4: Brite Detergent -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/brite.jpg"
+                  alt="Brite Maximum Power 1kg Detergent Washing"
+                />
+                <h3 class="product-name">
+                  Brite Maximum Power 1kg Detergent Washing...
+                </h3>
+                <p class="current-price">Rs.458</p>
+                <p class="original-price">Rs.549</p>
+                <p class="discount">-17%</p>
+              </div>
+
+              <!-- Product 5: Air buds/ Bluetooth Earphones -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/airbuds.webp"
+                  alt="Air buds/ Bluetooth Earphones Headphones"
+                />
+                <h3 class="product-name">
+                  Air buds/ Bluetooth Earphones Headphones...
+                </h3>
+                <p class="current-price">Rs.799</p>
+                <p class="original-price">Rs.1,299</p>
+                <p class="discount">-39%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category section -->
+
+      <div class="categories-wrapper">
+        <div class="categories-header">
+          <h2>Categories</h2>
+        </div>
+
+        <div class="category-grid">
+          <!-- Category 1: 3D Printers -->
+          <div class="category-item">
+            <img src="./images/category-sec/category1.webp" alt="3D Printers" />
+            <p class="category-name">3D Printers</p>
+          </div>
+
+          <!-- Category 2: Pasta, Noodle & Pizza Tools -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category2.jpeg"
+              alt="Pasta, Noodle & Pizza Tools"
+            />
+            <p class="category-name">Pasta, Noodle & Pizza Tools</p>
+          </div>
+
+          <!-- Category 3: SIM Tools -->
+          <div class="category-item">
+            <img src="./images/category-sec/category3.jpg" alt="SIM Tools" />
+            <p class="category-name">SIM Tools</p>
+          </div>
+
+          <!-- Category 4: Screen Protectors -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category4.jpg"
+              alt="Screen Protectors"
+            />
+            <p class="category-name">Screen Protectors</p>
+          </div>
+
+          <!-- Category 5: Casserole Pots -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category5.webp"
+              alt="Casserole Pots"
+            />
+            <p class="category-name">Casserole Pots</p>
+          </div>
+
+          <!-- Category 6: Table Lamps -->
+          <div class="category-item">
+            <img src="./images/category-sec/category6.webp" alt="Table Lamps" />
+            <p class="category-name">Table Lamps</p>
+          </div>
+
+          <!-- Category 7: Hoodies & Sweatshirts -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category7.jfif"
+              alt="Hoodies & Sweatshirts"
+            />
+            <p class="category-name">Hoodies & Sweatshirts</p>
+          </div>
+
+          <!-- Category 8: Dog & Cat Electric Clippers -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category14.jpg"
+              alt="Dog & Cat Electric Clippers"
+            />
+            <p class="category-name">Dog & Cat Electric Clippers</p>
+          </div>
+
+          <!-- Category 9: Sneakers -->
+          <div class="category-item">
+            <img src="./images/category-sec/category8.webp" alt="Sneakers" />
+            <p class="category-name">Sneakers</p>
+          </div>
+
+          <!-- Category 10: Education -->
+          <div class="category-item">
+            <img src="./images/category-sec/category9.webp" alt="Education" />
+            <p class="category-name">Education</p>
+          </div>
+
+          <!-- Category 11: Dress-Up Kits -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category10.webp"
+              alt="Dress-Up Kits"
+            />
+            <p class="category-name">Dress-Up Kits</p>
+          </div>
+
+          <!-- Category 12: Dining Sets -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category11.webp"
+              alt="Dining Sets"
+            />
+            <p class="category-name">Dining Sets</p>
+          </div>
+
+          <!-- Category 13: Microphones -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category12.webp"
+              alt="Microphones"
+            />
+            <p class="category-name">Microphones</p>
+          </div>
+
+          <!-- Category 14: Leashes & Harnesses -->
+          <div class="category-item">
+            <img
+              src="./images/category-sec/category13.webp"
+              alt="Leashes & Harnesses"
+            />
+            <p class="category-name">Leashes & Harnesses</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- another section -->
+
+      <section>
+        <div class="main-wrapper">
+          <div class="flash-sale-container">
+            <div class="flash-sale-header">
+              <h2>Just For You</h2>
+            </div>
+
+            <div class="product-grid">
+              <!-- Product 1: Airpod Pro -->
+              <div class="product-item">
+                <img src="./images/card-images/card6.webp" alt="track-suit" />
+                <h3 class="product-name">
+                  Positive_Summer woman Tracksuit Trouser and Shirt Track suit
+                  for Summer...
+                </h3>
+                <p class="current-price">Rs.716</p>
+                <p class="original-price">Rs.1,199</p>
+                <p class="discount">-40%</p>
+              </div>
+
+              <!-- Product 2: Whitening Cream -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card7.jpg"
+                  alt="Whitening Cream for Men & Women Skin"
+                />
+                <h3 class="product-name">
+                  slippers for men-House slippers with PVC sole- Chapal with PVC
+                  sole for men...
+                </h3>
+                <p class="current-price">Rs.245</p>
+                <p class="original-price">Rs.1,200</p>
+                <p class="discount">-80%</p>
+              </div>
+
+              <!-- Product 3: Airpods_Pro Bluetooth -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/earbuds.webp"
+                  alt="Airpods_Pro Wireless Earbuds Bluetooth 5.0"
+                />
+                <h3 class="product-name">
+                  Airpods_Pro Wireless Earbuds Bluetooth 5.0...
+                </h3>
+                <p class="current-price">Rs.763</p>
+                <p class="original-price">Rs.1,120</p>
+                <p class="discount">-32%</p>
+              </div>
+
+              <!-- Product 4: Brite Detergent -->
+              <div class="product-item">
+                <img src="./images/card-images/card8.webp" alt="flaslight" />
+                <h3 class="product-name">
+                  USB Rechargeable Waterproof Zoomable LED Flashlight Torch Tial
+                  Clip - Flashlight Rechargeable Telescopic Zoom Torch Mini LED
+                  Light & Cable USB Rechargeable Waterproof Zoomable LED
+                  Flashlight Torch Tial Clip - Flashlight...
+                </h3>
+                <p class="current-price">Rs.458</p>
+                <p class="original-price">Rs.549</p>
+                <p class="discount">-17%</p>
+              </div>
+
+              <!-- Product 5: Air buds/ Bluetooth Earphones -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card9.webp"
+                  alt="Air buds/ Bluetooth Earphones Headphones"
+                />
+                <h3 class="product-name">
+                  Electronic Fast Hair Straightener Portable Mini Hair Flat
+                  Iron...
+                </h3>
+                <p class="current-price">Rs.799</p>
+                <p class="original-price">Rs.1,299</p>
+                <p class="discount">-39%</p>
+              </div>
+
+              <!-- Product 1: Airpod Pro -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card10.webp"
+                  alt="Airpod Pro Air Pro TWS Airpods Wireless Earbuds"
+                />
+                <h3 class="product-name">
+                  Harry potter summer gym wear tracksuit Tshirt+short soft &
+                  comfortable fabric-maroon...
+                </h3>
+                <p class="current-price">Rs.716</p>
+                <p class="original-price">Rs.1,199</p>
+                <p class="discount">-40%</p>
+              </div>
+
+              <!-- Product 2: Whitening Cream -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card11.webp"
+                  alt="Whitening Cream for Men & Women Skin"
+                />
+                <h3 class="product-name">
+                  FREE FIRE Printed Tracksuit For Men and Boys - Soft and
+                  Comfortable Fabric Sweat Shirt and Trouser winter Track
+                  suit...
+                </h3>
+                <p class="current-price">Rs.245</p>
+                <p class="original-price">Rs.1,200</p>
+                <p class="discount">-80%</p>
+              </div>
+
+              <!-- Product 3: Airpods_Pro Bluetooth -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card12.webp"
+                  alt="Airpods_Pro Wireless Earbuds Bluetooth 5.0"
+                />
+                <h3 class="product-name">
+                  Mini Portable USB Rechargeable Hand Held Air Conditioner
+                  Cooler Fan...
+                </h3>
+                <p class="current-price">Rs.763</p>
+                <p class="original-price">Rs.1,120</p>
+                <p class="discount">-32%</p>
+              </div>
+
+              <!-- Product 4: Brite Detergent -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card13.webp"
+                  alt="Brite Maximum Power 1kg Detergent Washing"
+                />
+                <h3 class="product-name">
+                  Transparent Lightweight Anti Glare UV Eyeglasses For Men and
+                  Women White Glasses for Boys and Girls...
+                </h3>
+                <p class="current-price">Rs.458</p>
+                <p class="original-price">Rs.549</p>
+                <p class="discount">-17%</p>
+              </div>
+
+              <!-- Product 5: Air buds/ Bluetooth Earphones -->
+              <div class="product-item">
+                <img
+                  src="./images/card-images/card14.webp"
+                  alt="Air buds/ Bluetooth Earphones Headphones"
+                />
+                <h3 class="product-name">
+                  Classic Luxury Watch for Men / Boys - Stylish Stainless Steel
+                  Analog Quartz Mens Watches
+                </h3>
+                <p class="current-price">Rs.799</p>
+                <p class="original-price">Rs.1,299</p>
+                <p class="discount">-39%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="info-section-wrapper">
+        <!-- Customer Care Column -->
+        <div class="info-column">
+          <h4>Customer Care</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">How to Buy</a></li>
+            <li><a href="#">Corporate & Bulk Purchasing</a></li>
+            <li><a href="#">Returns & Refunds</a></li>
+            <li><a href="#">Daraz Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Purchase Protection</a></li>
+            <li><a href="#">Daraz Pick up Points</a></li>
+          </ul>
+        </div>
+
+        <!-- Daraz Column -->
+        <div class="info-column">
+          <h4>Daraz</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Digital Payments</a></li>
+            <li><a href="#">Daraz Donates</a></li>
+            <li><a href="#">Daraz Blog</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">NTN Number : 401218-6</a></li>
+            <li><a href="#">STRN Number : 170040121818</a></li>
+            <li><a href="#">Online Shopping App</a></li>
+            <li><a href="#">Online Grocery Shopping</a></li>
+            <li><a href="#">Daraz Exclusive</a></li>
+            <li><a href="#">Daraz University</a></li>
+            <li><a href="#">Sell on Daraz</a></li>
+            <li><a href="#">Join Daraz Affiliate Program</a></li>
+          </ul>
+        </div>
+
+        <!-- Happy Shopping & Download App Section -->
+        <div class="info-column app-download-section">
+          <div class="app-download-header">
+            <img
+              src="data:image/png;base64,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   "
+              alt="Happy Shopping Icon"
+            />
+            <p>Happy Shopping<br />Download App</p>
+          </div>
+          <div class="app-badges">
+            <a href="#"
+              ><img
+                src="https://placehold.co/150x50/000000/ffffff?text=App+Store"
+                alt="Download on App Store"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://placehold.co/150x50/000000/ffffff?text=Google+Play"
+                alt="Get it on Google Play"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://placehold.co/150x50/000000/ffffff?text=AppGallery"
+                alt="Explore it on AppGallery"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="detailed-info-wrapper">
+        <!-- Column 1: How Daraz Transformed Online Shopping -->
+        <div class="content-column">
+            <h3>How Daraz Transformed Online Shopping In Pakistan</h3>
+            <p>Daraz first made waves in Pakistan's e-commerce market after its introduction in 2012. We have since grown to become Pakistan's largest platform for online shopping with a network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision was to provide a safe, efficient online marketplace platform for vendors and customers across the country to come together. We started off exclusively as an online fashion retail platform and over the years expanded to become a complete one-stop solution for all your buying needs. Daraz prides itself on not being just another ecommerce venture in Asia. We work tirelessly to make sure that we provide users with the best online online shopping experience and value for their purchases. Whether you shop online through our website or our online shopping mobile App, you can expect easy navigation, customized recommendations, and a smooth online shopping experience.</p>
+
+            
+        </div>
+
+        <!-- Column 2: Top Categories & Brands -->
+        <div class="content-column">
+            <h3>Top Categories & Brands</h3>
+
+            <h4>MOBILE PHONES IN PAKISTAN</h4>
+            <ul>
+                <li>Apple Phones, Honor Mobiles, Huawei Mobiles, Tecno Mobiles, Redmi Mobiles, Xiaomi Mi Mobiles, Nokia Mobiles, OnePlus Mobiles, Oppo Mobile Phones, Realme Mobiles, Samsung Mobile Phones, Vivo Mobile Phones, Mobile Accessories, Smart Watches</li>
+            </ul>
+
+            <h4>LATEST LAPTOPS</h4>
+            <ul>
+                <li>Dell Laptops, HP Laptops, Lenovo Laptops, Mouse, Gaming Graphic Cards, lenovo ideapad 3, Macbook Pro 13, Hp Probook 650 G2</li>
+            </ul>
+
+            <h4>LED TV</h4>
+            <ul>
+                <li>Chonghong Led TV, LG Led TV, Samsung Led TV, Sony Led TV, TCL LED TVs</li>
+            </ul>
+
+            <h4>HOME APPLIANCES</h4>
+            <ul>
+                <li>Microwave oven, Geyser, Heater, Refrigerators, Deep Freezers, Generators, Water Dispensers, Fans, Room Cooler, Table Fans, Wall Fans, Exhaust Fans, Pedestal Fans, Window Ac, Solar Panel, Washing Machine</li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Fashion and Other Categories -->
+        <div class="content-column">
+            <h4>WOMEN'S FASHION</h4>
+            <ul>
+                <li>Al-Karam Studio, Warda, Salitex, Bonanza Satrangi, Edenrobe, Firdous, Junaid Jamshed, Limelight, Sana Safinaz, Mahru, Pushup Bra, Women Undergarments</li>
+            </ul>
+
+            <h4>MEN'S FASHION</h4>
+            <ul>
+                <li>Men's Shirts, Men's T-Shirts</li>
+            </ul>
+
+            <h4>ONLINE GROCERY STORE</h4>
+            <ul>
+                <li>Oil & Ghee, Basmati Rice, Dried Fruits, Chocolates, Mattresses</li>
+            </ul>
+
+            <h4>ONLINE BOOK STORE</h4>
+            <ul>
+                <li>English Books, Islamic Books, History Books, English Literature Books, Kids Urdu Stories, Pride & Prejudice, Harry Potter Story Books, Namal Novel, Nimra Ahmed Novels</li>
+            </ul>
+
+            <h4>AIR CONDITIONERS</h4>
+            <ul>
+                <li>Kenwood Ac, Haier Ac, Gree Ac, Dawlance Ac, Orient Ac, Ecostar Ac, Inverex Solar Ac, Pel Ac</li>
+            </ul>
+
+            <h4>TOP MOBILE PHONES</h4>
+            <ul>
+                <li>Nokia G20, redmi 12, vivo 20s, realme c15, realme 7 pro, realme 6 pro</li>
+            </ul>
+        </div>
+    </div>
+
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4>Daraz International</h4>
+            <div class="international-links">
+              <a href="#" class="country-link">
+                <img
+                  src="https://e7.pngegg.com/pngimages/72/2/png-clipart-flag-of-pakistan-independence-day-green-flag-school-pakistan-flag-independence-day-thumbnail.png"
+                  alt="Pakistan Flag"
+                />
+                Pakistan
+              </a>
+              <a href="#" class="country-link">
+                <img
+                  src="https://www.shutterstock.com/image-illustration/round-bangladesh-flag-icon-button-260nw-2300682893.jpg"
+                  alt="Bangladesh Flag"
+                />
+                Bangladesh
+              </a>
+              <a href="#" class="country-link">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHkw_uODLTqPm90GoywQZeano3zQVSfk--zQ&s"
+                  alt="Sri Lanka Flag"
+                />
+                Sri Lanka
+              </a>
+              <a href="#" class="country-link">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyBNEst0fhRr9uJoUVTzj_kGA5PhU4A3YGZQ&s"
+                  alt="Nepal Flag"
+                />
+                Nepal
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/021/495/985/non_2x/facebook-social-media-logo-icon-free-png.png"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="https://placehold.co/30x30/000000/ffffff?text=X"
+                  alt="X (Twitter)"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/042/148/632/non_2x/instagram-logo-instagram-social-media-icon-free-png.png"
+                  alt="Instagram"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png"
+                  alt="YouTube"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section copyright">
+            <p>&copy; Daraz 2025</p>
+          </div>
+        </div>
+
+        <!-- Messages Button -->
+        <div class="messages-button-wrapper">
+          <a href="#" class="messages-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+              />
+            </svg>
+            Messages
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
