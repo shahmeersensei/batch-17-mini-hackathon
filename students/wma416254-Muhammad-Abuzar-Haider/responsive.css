@@ -1,0 +1,110 @@
+@media only screen and (max-width:992px) {
+    #ways-to-bank svg {
+    background-color: #ffffff3b;
+    padding: 25px 20px;
+    border-radius: 50%;
+    font-size: 45px;
+}
+
+#ways-to-bank h4 {
+    font-size: 16px;
+}
+
+#ways-to-bank p {
+    font-size: 14px;
+}
+
+#awards .row {
+    max-width: 100%;
+}
+
+.service-desk .row {
+    max-width: 100%;
+}
+
+.footer-top .col-md-3 .icon-wt h3 {
+    font-size: 15px;
+}
+
+.footer-top .col-md-3 .icon-wt svg {
+    font-size: 20px;
+}
+
+.footer-bottom .row {
+    max-width: 100%;
+}
+
+.footer-bottom h4 {
+    font-size: 13px;
+}
+
+.footer-bottom ul li a {
+    font-size: 11px;
+}
+}
+
+@media only screen and (max-width:600px){
+    #facility {
+    padding: 50px 0;
+}
+
+#ways-to-bank {
+    padding: 50px 0;
+}
+
+#ways-to-bank h2 {
+    margin-bottom: 40px;
+}
+
+.service-desk img {
+    width: auto;
+}
+
+.service-desk .col-md-3 {
+    text-align: center;
+}
+
+.service-desk h2 {
+    margin-bottom: 40px;
+}
+.footer-top .col-md-3 {
+    border-right: unset;
+    border-bottom: 1px solid #fff;
+}
+.copyright p {
+    text-align: center !important;
+}
+
+.header ul.navbar-nav, .header ul.navbar-nav a {height: auto;}
+
+.header ul .nav-item {
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 0;
+}
+
+.header ul .nav-item:nth-child(4) {
+    border-right: unset !IMPORTANT;
+    border-bottom: 0;
+}
+
+.header ul.navbar-nav:last-child .login {
+    width: 100%;
+}
+
+.header .container-fluid {
+    padding: 0;
+}
+
+.header .navbar-brand {
+    padding-left: 10px !important;
+}
+
+.header .navbar-toggler {
+    margin-right: 10px;
+}
+
+.header ul.navbar-nav:last-child .login .nav-link {
+    padding: 10px 20px !IMPORTANT;
+}
+}
+
