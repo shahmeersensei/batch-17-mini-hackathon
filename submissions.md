@@ -6,7 +6,7 @@
 |----------|--------------|-----------------------------------------|----------------------------------------------------------------------|----------------------------------|
 | 1234     | Ali Khan     | https://ali-khan.netlify.app            | https://github.com/your-org/repo-name/tree/main/students/roll1234-AliKhan | https://linkedin.com/in/alikhan |
 | 5678     | Sara Ahmed   | https://sara-landing.vercel.app         | https://github.com/your-org/repo-name/tree/main/students/roll5678-SaraAhmed | https://linkedin.com/in/saraahmed |
-|          |              |                                         |                                                                      |                                  |
+| 416965   | M.Haseeb     | https://monumental-valkyrie-7e34f6.netlify.app/ | https://github.com/A-Haseeb-Dev/batch-17-mini-hackathon/tree/main/students/WMA-416965-Muhammad-Haseeb-Khalid |
 
 > ⚠️ Note:
 > - Submit before **12:00 PM sharp**  
