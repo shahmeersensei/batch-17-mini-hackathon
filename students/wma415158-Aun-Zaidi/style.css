@@ -1,0 +1,618 @@
+/* Main Stylesheet */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+.navbar-expand-lg{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+background-color: white;
+border-bottom: 1px solid rgb(229, 231, 235);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 15px 0;
+}
+.header{
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(238, 238, 238);
+
+}
+.header-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 17px;
+}
+.email-head{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.phone-head{
+  display: flex;
+  flex-direction: row;
+  margin-left: -600px;
+}
+.whatsapp-head{
+  display: flex;
+  flex-direction: row;
+  margin-left: -600px;
+}
+.button-head{
+  display: flex;
+  align-items: center;
+}
+.button{
+  padding: 5px 15px;
+  background-color: white;
+  border: rgb(217, 217, 217) 2px solid;
+  border-style: solid;
+  border-width: 0;
+  align-items: center;
+  margin-top: -24px;
+  margin-right: 50px;
+  
+}
+.saylani-logo{
+width: 200px;
+}
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+        .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: fixed;
+        }
+        nav ul {
+          font-size: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+            margin-left: 250px;
+        }
+        nav a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 15px;
+            
+        }
+
+        .dropdown-menu {
+            margin-top: 0;
+        }
+
+                .sidebar {
+            background-color: #f8f9fa;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            overflow-y: auto;
+        }
+        .sidebar-link {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        .sidebar-link:hover {
+            background-color: #e9ecef;
+            color: #0d6efd;
+        }
+        .sidebar-link.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+        .nested-sidebar {
+            padding-left: 20px;
+            border-left: 2px solid #dee2e6;
+        }
+        .main-content {
+            background-color: white;
+        }
+        .logo-area {
+            padding: 20px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .search-box {
+            position: relative;
+        }
+        .search-box input {
+            padding-left: 35px;
+        }
+        .search-box i {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            color: #6c757d;
+        }
+        @media (max-width: 992px) {
+            .sidebar {
+                height: auto;
+                position: relative;
+            }
+        }
+.nav-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 20px;
+}
+.button1{
+padding: 10px 10px;
+font-size: 10px;
+width: 100px;
+background-color: #3b82f6;
+color: white;
+border: none;
+font-weight: bold;
+border-radius: 2px;
+
+}
+.button2{
+padding: 10px 10px;
+font-size: 10px;
+width: 100px;
+background-color: #3b82f6;
+color: white;
+border: none;
+font-weight: bold;
+border-radius: 2px;
+}
+.hero{
+  margin-top: 40px;
+}
+.hero-section{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.slides{
+  width: 500px;
+  margin-right: 50px;
+}
+
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.hero-button{
+  padding: 15px 40px;
+  background-color: #FFFFFF;
+  border: rgb(66, 66, 66) 0.6px solid;
+}
+.banners{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.quickdonate{
+  width: 98%;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.doing{
+margin-bottom: 40px;
+}
+.doing-banners{
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 17px;
+}
+.do-banner:hover{
+  transform: scale(1.04);
+}
+.food-distribution{
+  margin-left: 10px;
+}
+.other-projects-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2vw;
+  margin-bottom: 25px;
+}
+.other-projects-box{
+  display: flex;
+  flex-direction: row;
+}
+.blue-banner{
+width: 100%;
+}
+
+.media{
+  margin-top: 40px;
+}
+.yt-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.news-section{
+  margin-bottom: 40px;
+}
+.news{
+  margin-left: 25px;
+  gap: 5px;
+}
+.blue-banner-image{
+  width: 100%;
+  position: absolute;
+  height: 200px;
+}
+.guide-searchbar{
+  position: relative;
+}
+.subscribe{
+  position: relative;
+}
+
+        .footer {
+            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            min-height: 400px;
+            padding: 60px 40px 30px;
+            color: white;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at center, rgba(255,255,255,0.03) 0%, transparent 70%),
+                        linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.02) 50%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .footer-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 50px;
+        }
+
+        .footer-section h3 {
+            font-size: 24px;
+            margin-bottom: 25px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section ul li a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section ul li a:hover {
+            color: #4CAF50;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 24px;
+            color: white;
+        }
+
+        .brand-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .brand-text .urdu {
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icon.facebook { background: #3b5998; }
+        .social-icon.twitter { background: #000; }
+        .social-icon.youtube { background: #ff0000; }
+        .social-icon.whatsapp { background: #25d366; }
+
+        .social-icon:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .dmca-badge {
+            background: #666;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .contact-info {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .contact-info strong {
+            color: #fff;
+        }
+
+        .certifications-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            margin: 40px 0;
+            padding: 30px 0;
+            border-top: 1px solid #444;
+            border-bottom: 1px solid #444;
+        }
+
+        .certification-item {
+            text-align: center;
+        }
+
+        .cert-logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ccc;
+            font-size: 12px;
+           
+        }
+
+        .cert-text {
+            color: #ccc;
+            font-size: 14px;
+            max-width: 120px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-bottom p {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .certifications-section {
+                flex-direction: column;
+                gap: 30px;
+            }
+            
+            .footer {
+                padding: 40px 20px 20px;
+            }
+        }
+
+        .guide-section {
+            width: 100%;
+            background: url('/students/wma415158-Aun-Zaidi/images/blue-banner.jpg') center/cover no-repeat;
+            position: relative;
+            overflow: hidden;
+            padding: 80px 20px;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .guide-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(46, 134, 171, 0.7);
+            pointer-events: none;
+        }
+
+        .guide-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .guide-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 40px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            letter-spacing: 1px;
+        }
+
+        .subscription-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .email-input {
+            width: 100%;
+            padding: 18px 25px;
+            font-size: 16px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50px;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .email-input::placeholder {
+            color: rgba(255,255,255,0.8);
+            font-weight: 400;
+        }
+
+        .email-input:focus {
+            border-color: rgba(255,255,255,0.8);
+            background: rgba(255,255,255,0.15);
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .subscribe-btn {
+            width: 100%;
+            padding: 18px 25px;
+            font-size: 16px;
+            font-weight: 600;
+            background: white;
+            color: #2E86AB;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .subscribe-btn:hover {
+            background: #f8f9fa;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+            color: #1a5f7a;
+        }
+
+        .subscribe-btn:active {
+            transform: translateY(-1px);
+        }
+
+
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .guide-title {
+                font-size: 36px;
+                margin-bottom: 30px;
+            }
+            
+            .guide-section {
+                padding: 60px 15px;
+            }
+            
+            .email-input,
+            .subscribe-btn {
+                padding: 15px 20px;
+                font-size: 14px;
+            }
+            
+            .guide-section::after {
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .guide-title {
+                font-size: 28px;
+            }
+            
+            .subscription-form {
+                max-width: 100%;
+            }
+        }
+
+        .acca{
+          width: 150px;
+        }
+        .ubl{
+          width: 100px;
+          margin-top: -20px;
+        }
+
+
+
+
+
+        
