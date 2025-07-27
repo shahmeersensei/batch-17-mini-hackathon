@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+  <!-- Icons Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Etsy Hackathon Project</title>
+
+  <link rel="stylesheet" href="Assets/style.css" />
+  <link rel="stylesheet" href="Assets/responsive.css" />
+
+</head>
+
+<body>
+
+
+  <!-- Navbar -->
+  <nav>
+
+    <div class="nav-sec1">
+
+      <div class="logo">
+        <a href="#">
+          <img src="images/logo.png" alt="Etsy Logo" width="50">
+        </a>
+      </div>
+
+      <div class="nav-search">
+        <div class="nav-category">
+          <a href="#"><i class="fa-solid fa-list"></i> Categories</a>
+        </div>
+        <form action="">
+          <input type="search" name="search" id="search" placeholder="Search for anything">
+          <button type="submit" class="seach-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+
+      <div class="nav-sec1-links">
+        <ul class="nav-sec1-list">
+          <li class="nav-sec1-item">
+            <a href="#" class="nav-sec1-btn nav-signin">sign in</a>
+          </li>
+          <li class="nav-sec1-item">
+            <a href="#" class="nav-sec1-btn"><i class="fa-regular fa-heart"></i></a>
+          </li>
+          <li class="nav-sec1-item">
+            <a href="#" class="nav-sec1-btn"><i class="fa-solid fa-gift"></i></a>
+          </li>
+          <li class="nav-sec1-item">
+            <a href="#" class="nav-sec1-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="nav-sec2">
+
+      <ul class="nav-sec2-list" id="navbarMenu">
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn cancel-btn" id="cancelNavbar"><i class="fa-solid fa-xmark"></i></a>
+        </li>
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn"><i class="fa-solid fa-gift"></i> Gift</a>
+        </li>
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn">Back to School</a>
+        </li>
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn">Home Favorites</a>
+        </li>
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn">Fashion Finds</a>
+        </li>
+        <li class="nav-sec2-item">
+          <a href="#" class="nav-sec2-btn">Registry</a>
+        </li>
+      </ul>
+
+      <div class="menu-bar">
+        <button id="navbarToggler">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="nav-sec2-search">
+        <form action="">
+          <input type="search" name="search" id="search" placeholder="Search for anything">
+          <button type="submit" class="seach-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+
+      <div class="head-sec1">
+        <div class="head-sec1-txt">
+          <span class="student">Student</span>
+          <span class="standouts">Standouts</span>
+          <p>Shop special and affordable school supplies</p>
+          <a href="#">Head of class</a>
+        </div>
+        <div class="head-sec1-img">
+          <img src="images/headimage.png" alt="Image" width="100">
+        </div>
+      </div>
+
+      <div class="head-sec2">
+        <span class="teacher-gift">Teacher Appreciation Gifts</span>
+        <span class="shop-now">Shop Now</span>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Summer 2025 Section -->
+  <section class="summer-section">
+    <div class="summer-txt">
+      <h2>Discover our best of summer 2025</h2>
+    </div>
+
+    <div class="summer-card">
+      <div class="card card1">
+        <div class="img">
+          <img src="images/card1.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>New Arrival</span>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="img">
+          <img src="images/card2.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Bestsellers</span>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="img">
+          <img src="images/card3.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 summer Linen Finds</span>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="img">
+          <img src="images/card4.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Hosting Essentials</span>
+        </div>
+      </div>
+      <div class="card card5">
+        <div class="img">
+          <img src="images/card5.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Back to School Essentials</span>
+        </div>
+      </div>
+    </div>
+    <div class="summer-card">
+      <div class="card card1">
+        <div class="img">
+          <img src="images/card1.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>New Arrival</span>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="img">
+          <img src="images/card2.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Bestsellers</span>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="img">
+          <img src="images/card3.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 summer Linen Finds</span>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="img">
+          <img src="images/card4.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Hosting Essentials</span>
+        </div>
+      </div>
+      <div class="card card5">
+        <div class="img">
+          <img src="images/card5.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Back to School Essentials</span>
+        </div>
+      </div>
+    </div>
+    <div class="summer-card">
+      <div class="card card1">
+        <div class="img">
+          <img src="images/card1.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>New Arrival</span>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="img">
+          <img src="images/card2.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Bestsellers</span>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="img">
+          <img src="images/card3.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 summer Linen Finds</span>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="img">
+          <img src="images/card4.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Hosting Essentials</span>
+        </div>
+      </div>
+      <div class="card card5">
+        <div class="img">
+          <img src="images/card5.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Back to School Essentials</span>
+        </div>
+      </div>
+    </div>
+    <div class="summer-card">
+      <div class="card card1">
+        <div class="img">
+          <img src="images/card1.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>New Arrival</span>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="img">
+          <img src="images/card2.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Bestsellers</span>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="img">
+          <img src="images/card3.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 summer Linen Finds</span>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="img">
+          <img src="images/card4.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Summer Hosting Essentials</span>
+        </div>
+      </div>
+      <div class="card card5">
+        <div class="img">
+          <img src="images/card5.png" alt="img" width="50">
+        </div>
+        <div class="txt">
+          <span>Top 100 Back to School Essentials</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- About Etsy Section -->
+  <section class="about-section">
+    <div class="about-txt">
+      <h2>What is Etsy?</h2>
+      <a href="#">Read our wonderfully weird story</a>
+    </div>
+    <div class="about-content">
+      <div class="about-cont">
+        <h2>A community doing good</h2>
+        <p>
+          Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items.
+          We’re also a community pushing for positive change for small businesses, people, and the planet. Here are some
+          of the ways we’re making a positive impact, together.
+        </p>
+      </div>
+      <div class="about-cont">
+        <h2>Support independent creators</h2>
+        <p>
+          There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process
+          easy, helping you connect directly with makers to find something extraordinary.
+        </p>
+      </div>
+      <div class="about-cont">
+        <h2>Peace of mind</h2>
+        <p>
+          Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always
+          ready to step in for support.
+        </p>
+      </div>
+    </div>
+    <div class="about-btn">
+      <h4>Have a question? Well, we’ve got some answers.</h4>
+      <a href="#">Go to Help Center</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="logo-section">
+      <img src="images/logo.png" alt="logo" width="50">
+      <a href="#">Download the Etsy App</a>
+    </div>
+    <div class="btns-section">
+      <div class="btn-sec">
+        <span>Shop</span>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+      </div>
+      <div class="btn-sec">
+        <span>Shop</span>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+      </div>
+      <div class="btn-sec">
+        <span>Shop</span>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+      </div>
+      <div class="btn-sec">
+        <span>Shop</span>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+        <a href="#">Gift cards</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="Assets/script.js"></script>
+</body>
+
+</html>

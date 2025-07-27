@@ -1,0 +1,372 @@
+/* Responsive Styles */
+
+@media (max-width: 900px) {
+  /* Navbar */
+  nav {
+    height: 14vw;
+    position: relative;
+  }
+  .logo {
+    width: 30%;
+  }
+  .nav-search {
+    display: none;
+  }
+  .nav-sec1-links {
+    width: 70%;
+    justify-content: end;
+  }
+  .nav-sec1-list {
+    margin-right: 4vw;
+    gap: 2vw;
+  }
+  .nav-sec1-btn {
+    font-size: 2vw;
+  }
+
+  .nav-sec2-list {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100vh;
+    background-color: white;
+    background-color: white;
+    z-index: 1;
+    overflow: hidden;
+    animation-name: navbarAnimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    padding: 2vw;
+  }
+  #navbarMenu.active {
+    display: flex;
+  }
+  @keyframes navbarAnimation {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .cancel-btn {
+    display: flex;
+  }
+  .cancel-btn i {
+    font-size: 4vw;
+  }
+  .nav-sec2-btn {
+    font-size: 2vw;
+    font-weight: 500;
+  }
+
+  .menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+  }
+  #navbarToggler {
+    border: none;
+    color: #222222;
+    font-size: 2.5vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    background-color: white;
+    cursor: pointer;
+  }
+  .nav-sec2-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+  }
+
+  .nav-sec2-search form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    border-radius: 3vw;
+    padding: 0.1vw 0.2vw;
+    border: 2px solid #222222;
+  }
+  .nav-sec2-search form input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    border-radius: 3vw;
+    color: #595959;
+  }
+  .nav-sec2-search form button {
+    background-color: #f1641e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 1vw;
+    font-size: 1.5vw;
+  }
+
+  /* Header */
+  header {
+    height: 40vw;
+  }
+  .head-sec1 {
+    width: 100%;
+  }
+  .student,
+  .standouts {
+    font-size: 6vw;
+  }
+  .head-sec1-txt p {
+    font-size: 2vw;
+    margin: 1vw 0 1.5vw 0;
+  }
+  .head-sec1-txt a {
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+    padding: 1.5vw 2vw;
+  }
+  .head-sec2 {
+    display: none;
+  }
+
+  /* Summer Section */
+  .summer-section {
+    /* height: 130vw; */
+    height: auto;
+  }
+  .summer-txt h2 {
+    font-size: 3vw;
+  }
+
+  .summer-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 5vw;
+    padding: 2vw;
+  }
+
+  .card1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+  }
+
+  .card2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+  }
+
+  .card3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+  }
+
+  .card4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 4;
+  }
+
+  .card5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 7;
+  }
+  .txt span {
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+
+  /* About Section */
+  .about-section {
+    height: 50vw;
+  }
+  .about-txt h2 {
+    font-size: 4.5vw;
+    margin-bottom: 0.5vw;
+  }
+  .about-txt a {
+    font-size: 1.5vw;
+  }
+  .about-cont h2 {
+    font-size: 2.3vw;
+    margin-bottom: 1.5vw;
+  }
+  .about-cont p {
+    font-size: 1.2vw;
+  }
+  .about-btn h4 {
+    font-size: 2vw;
+  }
+  .about-btn a {
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+  }
+
+  /* Footer */
+  footer {
+    height: 40vw;
+  }
+  .logo-section img {
+    width: 60%;
+  }
+  .logo-section a {
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+    letter-spacing: 0.3px;
+  }
+  .btn-sec span {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+  }
+  .btn-sec a {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Navbar */
+  nav {
+    height: 18vw;
+  }
+  .nav-sec1-list {
+    margin-right: 5vw;
+    gap: 2.5vw;
+  }
+  .nav-sec1-btn {
+    font-size: 3vw;
+  }
+
+  #navbarToggler {
+    font-size: 3vw;
+  }
+
+  .nav-sec2-search form {
+    border-radius: 4vw;
+    padding: 0.2vw;
+  }
+  .nav-sec2-search form input {
+    padding-left: 1.5vw;
+    font-size: 2vw;
+    border-radius: 4vw;
+  }
+  .nav-sec2-search form button {
+    padding: 1.5vw;
+    font-size: 2vw;
+  }
+  .nav-sec2-list {
+    width: 50vw;
+  }
+  .cancel-btn i {
+    font-size: 5vw;
+  }
+  .nav-sec2-btn {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  /* Header */
+  header {
+    height: 50vw;
+  }
+  .student,
+  .standouts {
+    font-size: 8vw;
+  }
+  .head-sec1-txt p {
+    font-size: 3vw;
+    margin: 1.5vw 0 2vw 0;
+  }
+  .head-sec1-txt a {
+    font-size: 2vw;
+    border-radius: 2vw;
+    padding: 2vw 2.5vw;
+  }
+
+  /* Summer Section */
+  .summer-section {
+    /* height: 160vw; */
+    height: auto;
+  }
+  .txt span {
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+
+  /* About Section */
+  .about-section {
+    height: 60vw;
+  }
+  .about-txt h2 {
+    font-size: 5vw;
+    margin-bottom: 0.8vw;
+  }
+  .about-txt a {
+    font-size: 2vw;
+  }
+  .about-cont h2 {
+    font-size: 2.6vw;
+    margin-bottom: 1.8vw;
+  }
+  .about-cont p {
+    font-size: 1.4vw;
+  }
+  .about-btn h4 {
+    font-size: 2.5vw;
+  }
+  .about-btn a {
+    font-size: 2vw;
+    padding: 1.5vw 2.5vw;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    height: 80vw;
+  }
+  .logo-section {
+    width: 100%;
+    height: 40%;
+  }
+  .logo-section img {
+    width: 30%;
+  }
+  .logo-section a {
+    font-size: 2vw;
+    padding: 1.5vw 2.5vw;
+    letter-spacing: 0.3px;
+  }
+  .btns-section {
+    width: 100%;
+    height: 60%;
+  }
+  .btn-sec span {
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+  }
+  .btn-sec a {
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+  }
+}
