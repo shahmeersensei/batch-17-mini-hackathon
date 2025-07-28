@@ -2,7 +2,8 @@
 
 A simplified clone of Etsy's landing page, created for the SMIT Hackathon. This static website replicates core UI elements like featured products, search bar, and category highlights using HTML and CSS.
 
----
+Live Link... ✨
+gitub live: https://shuja-tech.github.io/Etsy-clone---smit-hackathon/
 
 🚀 Project Workflow
 
@@ -23,8 +24,7 @@ Deployed using Netlify for fast and free hosting:
 - Set the **publish directory** to `/` (root)
 - No build commands necessary
 
-Live Link... ✨
-gitub live: https://shuja-tech.github.io/Etsy-clone---smit-hackathon/
+
 
 ---
 
