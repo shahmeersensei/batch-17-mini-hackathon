@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clothing</title>
+  <style>
+    body { 
+        font-family: Arial, sans-serif; 
+        background: #f0f0f0; 
+        padding: 20px; 
+    }
+    h1 { 
+        text-align: center; 
+        color: #333;
+        margin-bottom: 30px; 
+    }
+    .product-grid {
+         display: grid; 
+         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+         gap: 20px; 
+        }
+    .product-card { 
+        background: #fff; 
+        padding: 15px; border-radius: 8px; 
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+        text-align: center; 
+    }
+    .product-card img { 
+        width: 100%; 
+        height: 100px;
+        object-fit: cover; 
+        border-radius: 6px; 
+    }
+    .product-card h3 { 
+        margin: 10px 0 5px; 
+        font-size: 16px; 
+        color: #222; 
+    }
+    .product-card p { 
+        margin: 0; 
+        font-size: 14px; 
+        color: #888; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Clothing</h1>
+  <div class="product-grid">
+    <div class="product-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gMPMFctTr36lkMIa8qGgTAoBgFKB38l2xQ&s"><h3>Bonnet Wood Side Table</h3><p>$20.00</p></div>
+    <div class="product-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0_nzYBzmvzK2mvZsCE75A2OTjCrieK1_WA&s"><h3>Sliding-Door Media Sideboard with Deep Drawer</h3><p>$35.00</p></div>
+    <div class="product-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgBxG60sFfSwfhZHm7V8i5e9L99XK4TjTaVA&s"><h3>Coffee Table</h3><p>$160.00</p></div>
+
+  </div>
+</body>
+</html>

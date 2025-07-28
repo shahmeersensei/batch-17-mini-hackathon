@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  background-color: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f16500;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.user-nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.category-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px;
+  gap: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 100%;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.popular-grid {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-left: 20px;
+}
+
+
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    width: 120px;
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
