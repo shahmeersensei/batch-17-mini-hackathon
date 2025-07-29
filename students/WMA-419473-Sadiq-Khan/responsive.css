@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    .top-nav {
+        gap: 10px;
+        font-size: 10px;
+    }
+    
+    .banner-title {
+        font-size: 2.5rem;
+    }
+    
+    .banner-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .section-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .products-row {
+        gap: 15px;
+    }
+    
+    .product-card {
+        min-width: 180px;
+    }
+    
+    .categories-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+    }
+    
+    .app-download-section {
+        margin-top: 20px;
+    }
+    
+    .banner-content {
+        padding: 20px;
+    }
+    
+    .school-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+    
+    .banner-subtitle {
+        font-size: 1rem;
+    }
+    
+    .product-card {
+        min-width: 160px;
+    }
+    
+    .categories-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+    
+    .main-footer .row > div {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    width: 100%;
+  }
+}
