@@ -640,3 +640,27 @@ html {
   color: #555;
 }
 
+.load-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.load-sec .load-btn {
+    padding: 20px 135px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.maps {
+    display: flex;
+    gap: 50px;
+}
+
+.map1 {
+    display: flex;
+    gap: 10px;
+}
