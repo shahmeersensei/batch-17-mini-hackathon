@@ -1,0 +1,570 @@
+/* Tablet Screen Size */
+@media only screen and (max-width: 900px) {
+  /* Navbar */
+  nav {
+    padding: 0 2vw;
+    height: 15vw;
+  }
+  /* Navbar Section 1 */
+  .navbar-section1 {
+    height: 50%;
+  }
+  .logo {
+    justify-content: start;
+    width: 20%;
+  }
+  .logo img {
+    width: 90%;
+  }
+  .search-bar {
+    display: none;
+  }
+  .cart-icon {
+    justify-content: end;
+    width: 80%;
+  }
+  .cart-icon-list {
+    gap: 1.2vw;
+    margin-right: 1vw;
+  }
+  .cart-icon-link {
+    font-size: 2.2vw;
+  }
+  .signin-btn {
+    padding: 0.8vw 1.5vw;
+    border-radius: 1rem;
+  }
+  .crt-icn-btn {
+    padding: 1.5vw;
+    border-radius: 100%;
+  }
+
+  /* Navbar Section 2 */
+  .navbar-section2 {
+    height: 50%;
+  }
+
+  .nav-links-lg-container {
+    display: none;
+  }
+
+  .menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+  }
+  #navbarToggler {
+    font-size: 2.8vw;
+    background-color: transparent;
+    border: none;
+    padding: 1vw;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  #navbarToggler:hover {
+    box-shadow: 0 0 0.5vw 0.5vw rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+  }
+  .sm-search-bar form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 90%;
+    border-radius: 10rem;
+    padding: 0.3vw 0.6vw;
+    border: 2px solid #222222;
+  }
+  .sm-search-bar form input {
+    font-size: 1.9vw;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding: 1vw;
+    border-radius: 10rem;
+    margin-right: 0.6vw;
+  }
+  .sm-search-bar form button[type="submit"] {
+    color: white;
+    width: 8%;
+    height: 100%;
+    font-size: 2vw;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #f1641e;
+  }
+  .sm-search-bar form button[type="submit"]:hover {
+    background-color: #ed9760;
+  }
+
+  /* Header */
+  header {
+    padding: 1.5rem 2rem;
+    height: 35vw;
+  }
+  .head-section1 {
+    width: 100%;
+  }
+  .head-section1:hover {
+    box-shadow: 0 0 0.8vw 0.8vw rgba(0, 0, 0, 0.1);
+  }
+  .head-section1-txt h4 {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+  }
+  .head-section1-txt span {
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+  }
+  .head-section1-txt a {
+    font-size: 1.8vw;
+    padding: 1.5vw 2.5vw;
+  }
+  .head-section1-txt a:hover {
+    box-shadow: 0 0 0.8vw 0.8vw rgba(0, 0, 0, 0.1);
+  }
+
+  .head-section2 {
+    display: none;
+  }
+
+  /* About Etsy */
+  .about-etsy {
+    padding: 0 2vw;
+    height: 80vw;
+  }
+  .about-heading {
+    height: 20%;
+  }
+  .about-heading h2 {
+    font-size: 4.5vw;
+    margin-bottom: 1vw;
+  }
+  .about-heading a {
+    font-size: 2vw;
+  }
+
+  .about-txt-section {
+    flex-direction: column;
+    height: 60%;
+  }
+  .about-txt {
+    width: 100%;
+    padding: 0;
+  }
+  .about-txt h4 {
+    font-size: 2.6vw;
+    border-bottom: 1.5vw;
+  }
+  .about-txt p {
+    font-size: 1.8vw;
+  }
+
+  .about-btn {
+    height: 20%;
+  }
+  .about-btn h6 {
+    font-size: 2.1vw;
+    margin-bottom: 1.5vw;
+  }
+  .about-btn a {
+    font-size: 2vw;
+    padding: 1.5vw 2vw;
+  }
+  .about-btn a:hover {
+    box-shadow: 0 0 0.8vw 0.8vw rgba(0, 0, 0, 0.2);
+  }
+
+  /* subscribe */
+  .subscribe {
+    height: 15vw;
+    padding: 1.5vw 2vw;
+  }
+  .subscribe h6 {
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
+  }
+  .subscribe form {
+    width: 50%;
+    height: 50%;
+  }
+  .subscribe form input {
+    font-size: 1.5vw;
+    padding: 1.5vw;
+  }
+  .subscribe form button[type="submit"] {
+    font-size: 1.5vw;
+    padding: 1vw;
+  }
+
+  /* footer */
+  footer {
+    height: 100vw;
+  }
+  .footer-section1 {
+    height: 15%;
+    padding: 0 2vw;
+  }
+  .footer-section1 h6 i {
+    font-size: 3vw;
+  }
+  .footer-section1 h6 span {
+    font-size: 2.2vw;
+    margin-left: 0.6vw;
+  }
+  .footer-section2 {
+    flex-direction: column;
+    height: 75%;
+    padding: 0 2vw;
+  }
+  .footer-logo {
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+  }
+  .footer-logo img {
+    width: 30%;
+    margin-right: 1vw;
+  }
+  .footer-logo a {
+    font-size: 1.8vw;
+    padding: 1.5vw 2vw;
+  }
+  .footer-logo a:hover {
+    box-shadow: 0 0 0.8vw 0.8vw rgba(0, 0, 0, 0.2);
+  }
+  .footer-links {
+    height: 75%;
+    width: 100%;
+  }
+  .footer-links-list {
+    gap: 1.5vw;
+  }
+  .footer-links-btn {
+    font-size: 1.6vw;
+    padding: 0.8vw;
+  }
+  .footer-links-item span {
+    font-size: 2vw;
+  }
+  .footer-links-icons {
+    padding: 1vw 0.8vw;
+  }
+  .footer-links-icons i {
+    font-size: 1.8vw;
+    margin-right: 0.8vw;
+    padding: 1vw 2vw;
+  }
+
+  .footer-section3 {
+    padding: 0 2vw;
+    height: 10%;
+  }
+  .side1 a span {
+    font-size: 1.5vw;
+    padding: 1vw 1.5vw;
+  }
+  .side2-link {
+    font-size: 1.3vw;
+  }
+
+  /* Card Section */
+  .card-section {
+    padding: 1rem 2rem;
+    margin: 1.5vw 0;
+  }
+  .card-heading {
+    height: 6vw;
+    padding: 1.5vw;
+  }
+  .card-heading h2 {
+    font-size: 3vw;
+  }
+  .card-main-row {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2vw;
+    gap: 3vw;
+  }
+  .card-main {
+    height: 30vw;
+    padding: 1vw;
+  }
+  .card-main:hover {
+    box-shadow: 0 0 0.3vw 0.5vw rgba(0, 0, 0, 0.1);
+  }
+  .card-txt span {
+    font-size: 1.8vw;
+  }
+  .card-txt span:first-child {
+    margin-bottom: 0.4vw;
+  }
+}
+
+/* Mobile Screen Size */
+@media only screen and (max-width: 500px) {
+  nav {
+    padding: 0 1vw;
+    height: 25vw;
+  }
+  /* Navbar Section 1 */
+  .logo img {
+    width: 95%;
+  }
+  .cart-icon-list {
+    gap: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  .cart-icon-link {
+    font-size: 3.6vw;
+  }
+  .signin-btn {
+    padding: 1vw 1.8vw;
+    border-radius: 1rem;
+  }
+  .crt-icn-btn {
+    padding: 2vw;
+    border-radius: 100%;
+  }
+  #navbarToggler {
+    font-size: 3.6vw;
+    padding: 1.5vw;
+  }
+  #navbarToggler:hover {
+    box-shadow: 0 0 0.8vw 0.8vw rgba(0, 0, 0, 0.1);
+  }
+
+  .sm-search-bar form {
+    padding: 0.6vw 0.8vw;
+  }
+  .sm-search-bar form input {
+    font-size: 2.8vw;
+    padding: 1.5vw;
+    margin-right: 1vw;
+  }
+  .sm-search-bar form button[type="submit"] {
+    font-size: 3vw;
+    width: 12%;
+  }
+
+  /* Header */
+  header {
+    padding: 0.8rem 1rem;
+    height: 40vw;
+  }
+  .head-section1:hover {
+    box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.1);
+  }
+  .head-section1-txt h4 {
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+  }
+  .head-section1-txt span {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+  }
+  .head-section1-txt a {
+    font-size: 2.5vw;
+    padding: 2vw 3vw;
+  }
+  .head-section1-txt a:hover {
+    box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.1);
+  }
+
+  /* About Etsy */
+  .about-etsy {
+    padding: 0 1vw;
+    height: 130vw;
+  }
+  .about-heading {
+    height: 15%;
+  }
+  .about-heading h2 {
+    font-size: 6vw;
+    margin-bottom: 1.5vw;
+  }
+  .about-heading a {
+    font-size: 2.5vw;
+  }
+  .about-txt-section {
+    height: 70%;
+  }
+  .about-txt h4 {
+    font-size: 3.6vw;
+    border-bottom: 2vw;
+  }
+  .about-txt p {
+    font-size: 2.5vw;
+  }
+  .about-btn {
+    height: 15%;
+  }
+  .about-btn h6 {
+    font-size: 3.1vw;
+    margin-bottom: 2vw;
+  }
+  .about-btn a {
+    font-size: 2.5vw;
+    padding: 2vw 2.5vw;
+  }
+  .about-btn a:hover {
+    box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.2);
+  }
+
+  /* subscribe */
+  .subscribe {
+    height: 22vw;
+    padding: 2vw 1vw;
+  }
+  .subscribe h6 {
+    font-size: 2.4vw;
+    margin-bottom: 2.5vw;
+  }
+  .subscribe form {
+    width: 80%;
+    height: 55%;
+  }
+  .subscribe form input {
+    font-size: 2.5vw;
+    padding: 2vw;
+  }
+  .subscribe form button[type="submit"] {
+    font-size: 2.5vw;
+    padding: 1.8vw;
+  }
+
+  /* Footer */
+  footer {
+    height: 380vw;
+  }
+  .footer-section1 {
+    height: 10%;
+    padding: 0 1vw;
+  }
+  .footer-section1 h6 i {
+    font-size: 6vw;
+  }
+  .footer-section1 h6 span {
+    font-size: 3.5vw;
+    margin-left: 0.8vw;
+  }
+
+  .footer-section2 {
+    padding: 0 1vw;
+    height: 80%;
+  }
+  .footer-logo {
+    justify-content: start;
+    height: 10%;
+  }
+  .footer-logo img {
+    width: 40%;
+    margin-right: 1vw;
+  }
+  .footer-logo a {
+    font-size: 3.5vw;
+    padding: 2.5vw 3vw;
+  }
+  .footer-logo a:hover {
+    box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.2);
+  }
+
+  .footer-links {
+    flex-direction: column;
+    height: 90%;
+    gap: 4vw;
+  }
+  .footer-links-section {
+    width: 100%;
+    height: auto;
+  }
+  .footer-links-list {
+    gap: 2vw;
+  }
+  .footer-links-btn {
+    font-size: 3vw;
+    padding: 1.5vw;
+  }
+  .footer-links-item span {
+    font-size: 4vw;
+  }
+  .footer-links-icons {
+    padding: 1.5vw 2vw;
+  }
+  .footer-links-icons i {
+    font-size: 3.5vw;
+    margin-right: 2vw;
+    padding: 2vw 4vw;
+  }
+
+  .footer-section3 {
+    flex-direction: column;
+    padding: 0 1vw;
+    height: 10%;
+  }
+  .side1 {
+    width: 100%;
+    height: 50%;
+  }
+  .side1 a span {
+    font-size: 2.5vw;
+    padding: 1.5vw 2vw;
+  }
+
+  .side2 {
+    justify-content: start;
+    width: 100%;
+    height: 50%;
+  }
+  .side2-list {
+    gap: 1.2vw;
+  }
+  .side2-link {
+    font-size: 2.2vw;
+  }
+
+  /* card section */
+  .card-section {
+    padding: 0.5rem 1rem;
+    margin: 1.5vw 0;
+  }
+  .card-heading {
+    height: 8vw;
+    padding: 2vw;
+  }
+  .card-heading h2 {
+    font-size: 3.5vw;
+  }
+  .card-main-row {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3vw 1vw;
+    gap: 3vw;
+  }
+  .card-main {
+    height: 50vw;
+    padding: 1.5vw;
+  }
+  .card-main:hover {
+    box-shadow: 0 0 0.5vw 0.5vw rgba(0, 0, 0, 0.1);
+  }
+  .card-txt span {
+    font-size: 3vw;
+  }
+  .card-txt span:first-child {
+    margin-bottom: 0.6vw;
+  }
+}
