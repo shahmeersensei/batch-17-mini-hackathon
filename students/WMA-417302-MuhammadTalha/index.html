@@ -5,13 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- BootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"></script>
-
   <!-- Icons Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
@@ -26,80 +19,113 @@
 
 <body>
 
-
   <!-- Navbar -->
   <nav>
 
-    <div class="nav-sec1">
+    <div class="navbar-section1">
 
       <div class="logo">
-        <a href="#">
-          <img src="images/logo.png" alt="Etsy Logo" width="50">
-        </a>
+        <img src="./images/logo.png" alt="Etsy Logo" width="50">
       </div>
 
-      <div class="nav-search">
-        <div class="nav-category">
-          <a href="#"><i class="fa-solid fa-list"></i> Categories</a>
+      <div class="search-bar">
+        <div class="categories">
+          <a href="#" class="categories-link" id="categoryToggler"><i class="fa-solid fa-list"></i> Categories</a>
+          <!-- Categories dropdown -->
+          <ul class="category-list" id="categoryMenu">
+            <li class="category-item">
+              <a href="#" class="category-link">Accessories</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Art & Collectibles</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Baby</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Bags & Purses</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Bath & Beauty</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Books, Film & Music</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Clothing</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Gifts</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Home & Living</a>
+            </li>
+            <li class="category-item">
+              <a href="#" class="category-link">Jewelry</a>
+            </li>
+          </ul>
         </div>
-        <form action="">
-          <input type="search" name="search" id="search" placeholder="Search for anything">
-          <button type="submit" class="seach-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
+        <div class="search-form">
+          <form>
+            <input type="search" name="search" id="search" placeholder="Search for anything">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
       </div>
 
-      <div class="nav-sec1-links">
-        <ul class="nav-sec1-list">
-          <li class="nav-sec1-item">
-            <a href="#" class="nav-sec1-btn nav-signin">sign in</a>
+      <div class="cart-icon">
+        <ul class="cart-icon-list">
+          <li class="cart-icon-item">
+            <a href="#" class="cart-icon-link signin-btn">sign in</a>
           </li>
-          <li class="nav-sec1-item">
-            <a href="#" class="nav-sec1-btn"><i class="fa-regular fa-heart"></i></a>
+          <li class="cart-icon-item">
+            <a href="#" class="cart-icon-link crt-icn-btn"><i class="fa-solid fa-heart"></i></a>
           </li>
-          <li class="nav-sec1-item">
-            <a href="#" class="nav-sec1-btn"><i class="fa-solid fa-gift"></i></a>
+          <li class="cart-icon-item">
+            <a href="#" class="cart-icon-link crt-icn-btn"><i class="fa-solid fa-gift"></i></a>
           </li>
-          <li class="nav-sec1-item">
-            <a href="#" class="nav-sec1-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+          <li class="cart-icon-item">
+            <a href="#" class="cart-icon-link crt-icn-btn"><i class="fa-solid fa-bag-shopping"></i></a>
           </li>
         </ul>
       </div>
 
     </div>
 
-    <div class="nav-sec2">
+    <div class="navbar-section2">
 
-      <ul class="nav-sec2-list" id="navbarMenu">
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn cancel-btn" id="cancelNavbar"><i class="fa-solid fa-xmark"></i></a>
-        </li>
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn"><i class="fa-solid fa-gift"></i> Gift</a>
-        </li>
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn">Back to School</a>
-        </li>
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn">Home Favorites</a>
-        </li>
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn">Fashion Finds</a>
-        </li>
-        <li class="nav-sec2-item">
-          <a href="#" class="nav-sec2-btn">Registry</a>
-        </li>
-      </ul>
+      <!-- Navbar Links For Large Screen -->
+      <div class="nav-links-lg-container">
+        <ul class="nav-links-lg">
+          <li class="nav-links-lg-item">
+            <a href="#" class="nav-links-lg-item-link"><i class="fa-solid fa-gift"></i> Gifts</a>
+          </li>
+          <li class="nav-links-lg-item">
+            <a href="#" class="nav-links-lg-item-link">Fast Delivery: School Finds</a>
+          </li>
+          <li class="nav-links-lg-item">
+            <a href="#" class="nav-links-lg-item-link">Home Favorites</a>
+          </li>
+          <li class="nav-links-lg-item">
+            <a href="#" class="nav-links-lg-item-link">Fashion Finds</a>
+          </li>
+          <li class="nav-links-lg-item">
+            <a href="#" class="nav-links-lg-item-link">Registry</a>
+          </li>
+        </ul>
+      </div>
 
+      <!-- Menu Bar Button -->
       <div class="menu-bar">
         <button id="navbarToggler">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars-staggered"></i>
         </button>
       </div>
 
-      <div class="nav-sec2-search">
-        <form action="">
+      <div class="sm-search-bar">
+        <form>
           <input type="search" name="search" id="search" placeholder="Search for anything">
-          <button type="submit" class="seach-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
 
@@ -107,295 +133,465 @@
 
   </nav>
 
-  <!-- Header Section -->
+  <!-- Header -->
   <header>
-    <div class="header-container">
+    <div class="head-section1">
 
-      <div class="head-sec1">
-        <div class="head-sec1-txt">
-          <span class="student">Student</span>
-          <span class="standouts">Standouts</span>
-          <p>Shop special and affordable school supplies</p>
-          <a href="#">Head of class</a>
-        </div>
-        <div class="head-sec1-img">
-          <img src="images/headimage.png" alt="Image" width="100">
-        </div>
+      <div class="head-section1-txt">
+        <h4>Classroom's</h4>
+        <span>Get special supplies from small shops</span>
+        <a href="#">Set A+ picks</a>
       </div>
 
-      <div class="head-sec2">
-        <span class="teacher-gift">Teacher Appreciation Gifts</span>
-        <span class="shop-now">Shop Now</span>
+      <div class="head-section1-img">
+        <img src="images/headimage.png" alt="img" width="50">
       </div>
+
+    </div>
+
+    <div class="head-section2">
+      <h4>Personalized Kid's Tees</h4>
+      <span>Shop Now</span>
     </div>
 
   </header>
 
-  <!-- Summer 2025 Section -->
-  <section class="summer-section">
-    <div class="summer-txt">
+  <!-- cards section -->
+
+  <section class="card-section">
+
+    <div class="card-heading">
+      <h2>Save now on standout styles</h2>
+    </div>
+
+    <div class="card-main-row">
+
+      <div class="card-main card1">
+        <div class="card-image">
+          <img src="./images/card-section1/card1.png" alt="card image" width="50">
+        </div>
+        <div class="card-txt">
+          <span>Summer Hosting</span>
+          <span>up to 30% off</span>
+        </div>
+      </div>
+
+      <div class="card-main card2">
+        <div class="card-image">
+          <img src="./images/card-section1/card2.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span>Teacher Gifts</span>
+          <span>up to 20% off</span>
+        </div>
+      </div>
+
+      <div class="card-main card3">
+        <div class="card-image">
+          <img src="./images/card-section1/card3.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span>Summer Style</span>
+          <span>up to 20% off</span>
+        </div>
+      </div>
+
+      <div class="card-main card4">
+        <div class="card-image">
+          <img src="./images/card-section1/card4.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span>Birthday Gift</span>
+          <span>up to 20% off</span>
+        </div>
+      </div>
+
+      <div class="card-main card5">
+        <div class="card-image">
+          <img src="./images/card-section1/card5.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span>Travel Accessories</span>
+          <span>up to 30% off</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="card-section">
+
+    <div class="card-heading">
+      <h2>Shop our most-loved categories</h2>
+    </div>
+
+    <div class="card-main-row">
+
+      <div class="card-main card1">
+        <div class="card-image">
+          <img src="./images/card-section2/card1.png" alt="card image" width="50">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Wall Hangings</span>
+        </div>
+      </div>
+
+      <div class="card-main card2">
+        <div class="card-image">
+          <img src="./images/card-section2/card2.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Home and Living</span>
+        </div>
+      </div>
+
+      <div class="card-main card3">
+        <div class="card-image">
+          <img src="./images/card-section2/card3.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Women's Dresses</span>
+        </div>
+      </div>
+
+      <div class="card-main card4">
+        <div class="card-image">
+          <img src="./images/card-section2/card4.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Necklaces</span>
+        </div>
+      </div>
+
+      <div class="card-main card5">
+        <div class="card-image">
+          <img src="./images/card-section2/card5.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Crochet Party and Gifting</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="card-section">
+
+    <div class="card-heading">
       <h2>Discover our best of summer 2025</h2>
     </div>
 
-    <div class="summer-card">
-      <div class="card card1">
-        <div class="img">
-          <img src="images/card1.png" alt="img" width="50">
+    <div class="card-main-row">
+
+      <div class="card-main card1">
+        <div class="card-image">
+          <img src="./images/card-section3/card1.png" alt="card image" width="50">
         </div>
-        <div class="txt">
-          <span>New Arrival</span>
-        </div>
-      </div>
-      <div class="card card2">
-        <div class="img">
-          <img src="images/card2.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Bestsellers</span>
+        <div class="card-txt">
+          <span style="margin: 0;">New Arrivals</span>
         </div>
       </div>
-      <div class="card card3">
-        <div class="img">
-          <img src="images/card3.png" alt="img" width="50">
+
+      <div class="card-main card2">
+        <div class="card-image">
+          <img src="./images/card-section3/card2.png" alt="card image">
         </div>
-        <div class="txt">
-          <span>Top 100 summer Linen Finds</span>
-        </div>
-      </div>
-      <div class="card card4">
-        <div class="img">
-          <img src="images/card4.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Hosting Essentials</span>
+        <div class="card-txt">
+          <span style="margin: 0;">Top 100 summer bestsellers</span>
         </div>
       </div>
-      <div class="card card5">
-        <div class="img">
-          <img src="images/card5.png" alt="img" width="50">
+
+      <div class="card-main card3">
+        <div class="card-image">
+          <img src="./images/card-section3/card3.png" alt="card image">
         </div>
-        <div class="txt">
-          <span>Top 100 Back to School Essentials</span>
+        <div class="card-txt">
+          <span style="margin: 0;">Top 100 summer Linen Finds</span>
         </div>
       </div>
+
+      <div class="card-main card4">
+        <div class="card-image">
+          <img src="./images/card-section3/card4.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Top 100 summer Hosting Essentials</span>
+        </div>
+      </div>
+
+      <div class="card-main card5">
+        <div class="card-image">
+          <img src="./images/card-section3/card5.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Top 100 Back to School Essentials</span>
+        </div>
+      </div>
+
     </div>
-    <div class="summer-card">
-      <div class="card card1">
-        <div class="img">
-          <img src="images/card1.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>New Arrival</span>
-        </div>
-      </div>
-      <div class="card card2">
-        <div class="img">
-          <img src="images/card2.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Bestsellers</span>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="img">
-          <img src="images/card3.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 summer Linen Finds</span>
-        </div>
-      </div>
-      <div class="card card4">
-        <div class="img">
-          <img src="images/card4.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Hosting Essentials</span>
-        </div>
-      </div>
-      <div class="card card5">
-        <div class="img">
-          <img src="images/card5.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Back to School Essentials</span>
-        </div>
-      </div>
-    </div>
-    <div class="summer-card">
-      <div class="card card1">
-        <div class="img">
-          <img src="images/card1.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>New Arrival</span>
-        </div>
-      </div>
-      <div class="card card2">
-        <div class="img">
-          <img src="images/card2.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Bestsellers</span>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="img">
-          <img src="images/card3.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 summer Linen Finds</span>
-        </div>
-      </div>
-      <div class="card card4">
-        <div class="img">
-          <img src="images/card4.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Hosting Essentials</span>
-        </div>
-      </div>
-      <div class="card card5">
-        <div class="img">
-          <img src="images/card5.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Back to School Essentials</span>
-        </div>
-      </div>
-    </div>
-    <div class="summer-card">
-      <div class="card card1">
-        <div class="img">
-          <img src="images/card1.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>New Arrival</span>
-        </div>
-      </div>
-      <div class="card card2">
-        <div class="img">
-          <img src="images/card2.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Bestsellers</span>
-        </div>
-      </div>
-      <div class="card card3">
-        <div class="img">
-          <img src="images/card3.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 summer Linen Finds</span>
-        </div>
-      </div>
-      <div class="card card4">
-        <div class="img">
-          <img src="images/card4.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Summer Hosting Essentials</span>
-        </div>
-      </div>
-      <div class="card card5">
-        <div class="img">
-          <img src="images/card5.png" alt="img" width="50">
-        </div>
-        <div class="txt">
-          <span>Top 100 Back to School Essentials</span>
-        </div>
-      </div>
+  </section>
+
+  <section class="card-section">
+
+    <div class="card-heading" style="height: auto;">
+      <h2>Find things you'll love. Support independent sellers. Only on Etsy.</h2>
     </div>
 
+    <div class="card-main-row">
+
+      <div class="card-main card1">
+        <div class="card-image">
+          <img src="./images/card-section4/card1.png" alt="card image" width="50">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Personalized Gifts</span>
+        </div>
+      </div>
+
+      <div class="card-main card2">
+        <div class="card-image">
+          <img src="./images/card-section4/card2.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">DIY and Crafts</span>
+        </div>
+      </div>
+
+      <div class="card-main card3">
+        <div class="card-image">
+          <img src="./images/card-section4/card3.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">For Kids and Babies</span>
+        </div>
+      </div>
+
+      <div class="card-main card4">
+        <div class="card-image">
+          <img src="./images/card-section4/card4.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Jewelry</span>
+        </div>
+      </div>
+
+      <div class="card-main card5">
+        <div class="card-image">
+          <img src="./images/card-section4/card5.png" alt="card image">
+        </div>
+        <div class="card-txt">
+          <span style="margin: 0;">Wedding and Engagement</span>
+        </div>
+      </div>
+
+    </div>
   </section>
 
 
-  <!-- About Etsy Section -->
-  <section class="about-section">
-    <div class="about-txt">
+  <!-- About etsy Section -->
+  <section class="about-etsy">
+
+    <div class="about-heading">
       <h2>What is Etsy?</h2>
-      <a href="#">Read our wonderfully weird story</a>
+      <a href="#">Read our wonderfully weird story.</a>
     </div>
-    <div class="about-content">
-      <div class="about-cont">
-        <h2>A community doing good</h2>
+
+    <div class="about-txt-section">
+      <div class="about-txt">
+        <h4>A community doing good</h4>
         <p>
           Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items.
           We’re also a community pushing for positive change for small businesses, people, and the planet. Here are some
           of the ways we’re making a positive impact, together.
         </p>
       </div>
-      <div class="about-cont">
-        <h2>Support independent creators</h2>
+      <div class="about-txt">
+        <h4>Support independent creators</h4>
         <p>
           There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process
           easy, helping you connect directly with makers to find something extraordinary.
         </p>
       </div>
-      <div class="about-cont">
-        <h2>Peace of mind</h2>
+      <div class="about-txt">
+        <h4>Peace of mind</h4>
         <p>
           Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always
           ready to step in for support.
         </p>
       </div>
     </div>
+
     <div class="about-btn">
-      <h4>Have a question? Well, we’ve got some answers.</h4>
+      <h6>Have a question? Well, we’ve got some answers.</h6>
       <a href="#">Go to Help Center</a>
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- subscribe section -->
+  <section class="subscribe">
+    <h6>Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.</h6>
+    <form>
+      <input type="email" name="email" id="email" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <div class="logo-section">
-      <img src="images/logo.png" alt="logo" width="50">
-      <a href="#">Download the Etsy App</a>
+
+    <div class="footer-section1">
+      <h6>
+        <i class="fa-solid fa-globe"></i>
+        <span>Etsy is powered by 100% renewable electricity</span>
+      </h6>
     </div>
-    <div class="btns-section">
-      <div class="btn-sec">
-        <span>Shop</span>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
+
+    <div class="footer-section2">
+
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="logo" width="50">
+        <a href="#">Download the Etsy App</a>
       </div>
-      <div class="btn-sec">
-        <span>Shop</span>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
+
+      <div class="footer-links">
+
+        <div class="footer-links-section">
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <span class="footer-links-btn">Shop</span>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Gift Cards</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy Registry</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Sitemap</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy Blog</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy United Kingdom</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy Germany</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy Canada</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-section">
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <span class="footer-links-btn">Sell</span>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Sell on Etsy</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Teams</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Forums</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Affiliates & Creators</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-section">
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <span class="footer-links-btn">About</span>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Etsy, Inc.</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Policies</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Investors</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Careers</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Press</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Impact</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Legal imprint</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-section">
+          <ul class="footer-links-list">
+            <li class="footer-links-item">
+              <span class="footer-links-btn">Help</span>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Help Center</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn">Privacy Settings</a>
+            </li>
+            <li class="footer-links-item">
+              <a href="#" class="footer-links-btn footer-links-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
       </div>
-      <div class="btn-sec">
-        <span>Shop</span>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
+
+    </div>
+
+    <div class="footer-section3">
+
+      <div class="side1">
+        <a href="#">
+          <span><i class="fa-solid fa-earth-americas"></i> Pakistan</span>
+          <span>English (UK)</span>
+          <span>$ (USD)</span>
+        </a>
       </div>
-      <div class="btn-sec">
-        <span>Shop</span>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
-        <a href="#">Gift cards</a>
+
+      <div class="side2">
+        <ul class="side2-list">
+          <li class="side2-item">
+            <span class="side2-link">© 2025 Etsy, Inc.</span>
+          </li>
+          <li class="side2-item">
+            <a href="#" class="side2-link">Terms of Use</a>
+          </li>
+          <li class="side2-item">
+            <a href="#" class="side2-link">Privacy</a>
+          </li>
+          <li class="side2-item">
+            <a href="#" class="side2-link">Interest-based ads</a>
+          </li>
+          <li class="side2-item">
+            <a href="#" class="side2-link">Local Shops</a>
+          </li>
+          <li class="side2-item">
+            <a href="#" class="side2-link">Regions</a>
+          </li>
+        </ul>
       </div>
+
     </div>
 
   </footer>

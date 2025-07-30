@@ -11,3 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.remove('active'); // Close menu
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggler = document.getElementById('categoryToggler');
+    const menu = document.getElementById('categoryMenu');
+
+    toggler.addEventListener('click', function () {
+        menu.classList.toggle('active');
+    });
+});
