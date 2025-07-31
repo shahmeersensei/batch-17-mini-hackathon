@@ -84,7 +84,7 @@ form i {
    
 }
 .one{
-    background-image: url(/secim.jpg);
+    background-image: url(./images/secim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -114,7 +114,7 @@ form i {
     background-color: black;
 }
 .two{
-    background-image: url(/secimg.jfif);
+    background-image: url(./images/secimg.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
