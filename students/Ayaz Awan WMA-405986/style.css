@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iner{
+    margin-top: 20px;
+    height: 5.5rem;
+    border-bottom: 2px solid  #ffd8c4;
+   
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+.logo h3{
+    font-size: 2.5rem;
+    color: #f1641e;
+}
+.logo{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+form{
+    position: relative;
+}
+.nav input{
+    position: relative;
+    width: 50rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+form i {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -45px;
+    margin-top: -12px;
+    color: #f1641e;
+}
+.icons button{
+    border: none;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    list-style: none;
+
+}
+.items a{
+    color: wheat;
+    text-decoration: none;
+    color: black;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    
+   
+}
+.one{
+    background-image: url(./images/secim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    width: 50%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 40px;
+    border-radius: 10px; 
+    padding: 30px;  
+  
+}
+.one h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.one{
+    font-size: 20px;
+}
+.one button{
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.two{
+    background-image: url(./images/secimg.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+.man-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.makup img{
+    height: 25rem;
+    width: 20rem;
+    object-fit: fill;
+    border-radius: 20px;
+}
+.makup {
+    text-align: center;
+    line-height: 20px;
+}
+.makup h6{
+    font-size: 15px;
+}
+.Gold img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 20px;
+    object-fit: fill;
+}
+.Gold{
+    text-align: center;
+    line-height: 20px;
+}
+.Gold h6{
+    font-size: 15px;
+}
+.yeeham {
+    text-align: center;
+    line-height: 20px;
+}
+.yeeham h6{
+    font-size: 15px;
+}
+.yeeham img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 20px;
+    object-fit: fill;
+}
+.gril {
+    text-align: center;
+    line-height: 20px;
+}
+.gril h6{
+    font-size: 15px;
+}
+.gril img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 20px;
+    object-fit: fill;
+}
+.three-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.texts{
+    width: 22rem;
+}
+.texts p{
+    font-size: 15px;
+    color: #4b4848;
+}
+.texts h3{
+    font-size: 30px;
+    line-height: 50px;
+}
+.texts a{
+    color: black;
+    text-decoration: none;
+}
+.three-section img{
+    height: 20rem;
+    width: 21rem;
+    border-radius: 8px;
+}
+.AA img{
+    width: 13rem;
+
+}
+.phone-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.phone img{
+    height: 20rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+.bali img{
+    height: 20rem;
+    width: 20rem;
+     border-radius: 10px;
+}
+.bali-21 img{
+    height: 20rem;
+    width: 13rem;
+     border-radius: 10px;
+}
+.pera{
+    width: 25%;
+    font-size: 20px;
+}
+.heading{
+    padding-bottom:10px;
+    padding-top: 10px;
+    margin-left: 77px;
+    width: 80%;
+
+}
+.four-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.four-container a{
+    flex-wrap: nowrap;
+}
+.four-container img{
+    height: 18rem;
+    width: 16.5rem;
+    border-radius: 10px;
+}
+
+
+
+
+  
